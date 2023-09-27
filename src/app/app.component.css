@@ -1,0 +1,18 @@
+header{
+    text-align: center;
+    background-color: #bd9b6e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-family: title;
+    letter-spacing: 5px;
+}
+
+@font-face {
+    font-family: title;
+    src: url(../assets/Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+}
+
+button{
+    margin: 50px 0px 0px 20px;
+}
