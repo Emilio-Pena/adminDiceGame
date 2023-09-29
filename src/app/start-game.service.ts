@@ -9,7 +9,9 @@ export class StartGameService {
   constructor() { }
 
   
-
+buttonWorking(){
+  console.log("Button is working")
+}
 
 }
 

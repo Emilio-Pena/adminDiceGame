@@ -8,4 +8,10 @@ import { StartGameService } from './start-game.service';
 })
 export class AppComponent {
   title = 'dealerApp';
+
+
+startGame(){
+  this.startGame()
+}
+
 }
