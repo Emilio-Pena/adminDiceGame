@@ -4,7 +4,19 @@
 }
 
 button{
-    margin: 50px 0px 0px 20px;
+    position: fixed;
+    display: flex;
+    font-family: title;
+    font-size: larger;
+    color: white;
+    top: 40%;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    justify-content: space-evenly;
+}
+
+#wallet{
+    left: 20%;
 }
 
 #background{
