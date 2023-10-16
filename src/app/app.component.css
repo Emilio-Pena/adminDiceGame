@@ -4,19 +4,30 @@
 }
 
 button{
-    position: fixed;
-    display: flex;
     font-family: title;
     font-size: larger;
     color: white;
-    top: 40%;
     background-color: black;
     padding: 10px 20px 10px 20px;
-    justify-content: space-evenly;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    justify-content: space-around;
 }
 
 #wallet{
-    left: 20%;
+    width: 200px;
+    flex-direction: row;
+}
+
+#game{
+    width: 200px;
+    flex-direction: row;
 }
 
 #background{
