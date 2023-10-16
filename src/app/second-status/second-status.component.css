@@ -1,0 +1,42 @@
+/* h2 {
+    font-family: title;
+    color: black;
+} */
+
+#status {
+    position: fixed;
+    top: 25%;
+    left: 26%;
+    width: 230px;
+    height: 210px;
+    background-color: white;
+}
+
+#result {
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+#result h2 {
+    font-family: title;
+    color: white;
+    letter-spacing: 4px;
+    padding: 20px;
+    padding-top: 25px;
+}
+
+#game-result button{
+    background-color: #353b36;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 12px;
+    margin-top: 25px;
+    text-align: center;
+    cursor: pointer;
+}
