@@ -1,8 +1,24 @@
 @font-face {
     font-family: title;
-    src: url(../assets/Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+    src: url(../assets/RhodynChalk-2O7K8.ttf);
 }
 
 button{
     margin: 50px 0px 0px 20px;
+}
+
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#title{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
