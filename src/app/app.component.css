@@ -1,18 +1,22 @@
-header{
-    text-align: center;
-    background-color: #bd9b6e;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: large;
-    font-family: title;
-    letter-spacing: 5px;
-}
-
 @font-face {
     font-family: title;
-    src: url(../assets/Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+    src: url(../assets/Dela_Gothic_One/RhodynChalk-2O7K8.ttf);
+}
+
+#title{
+    position: absolute;
+    width: 75%;
+    top: 100px;
+    left: 200px;
 }
 
 button{
-    margin: 50px 0px 0px 20px;
+    position: relative;
+    font-family: title;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 300px 0px 0px 550px;
+    padding: 20px 20px 20px 20px;
 }

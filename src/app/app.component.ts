@@ -9,9 +9,14 @@ import { StartGameService } from './start-game.service';
 export class AppComponent {
   title = 'dealerApp';
 
+  constructor(public game:StartGameService) {}
 
-startGame(){
-  this.startGame()
+buttonWorking(){
+  console.log("Button is working")
+}
+
+walletConnect(){
+  this.game.connectWallet
 }
 
 }
